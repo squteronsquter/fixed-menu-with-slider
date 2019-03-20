@@ -1,9 +1,3 @@
-// $('.footer-nav-menu-item').on('click', function() {
-//   var label = $(this).attr('data-label');
-//   $('.panel').removeClass('active');
-//   $('#' + label).addClass('active');
-// });
-
 $('.footer-nav-menu-item').on('click', function() {
   var label = $(this).attr('data-label');
   $('.panel-header').text(label);
